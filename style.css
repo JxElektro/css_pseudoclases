@@ -1,0 +1,56 @@
+*{
+  font-family: 'Poppins', monospace;
+}
+
+div {
+  background-color: whitesmoke;
+  margin: 5%;
+  box-shadow: 1px;
+  height: 25%;
+  width: 25%;
+  border-radius: 40px;
+  padding: 5vh;
+  text-align: center;
+  justify-self: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+form {
+  padding-right: 5%;
+ display: flex;
+ flex-direction: column;
+}
+
+.ejercicio__primero a:hover {
+  background-color: red;
+}
+
+
+.ejercicio__segundo .master:hover {
+  background-color: red;
+}
+
+.ejercicio__tercero :first-child {
+  background-color: red;
+}
+
+.ejercicio__cuarto :focus {
+  background-color: red;
+
+}
+
+.ejercicio__quinto .intro::first-line {
+  background-color: red;
+}
+
+.ejercicio__sexto :first-letter {
+  background-color: red;
+}
+
+.ejercicio__septimo p::before {
+  content: url(093.ico);
+}
+
+.ejercicio__septimo p::after {
+  content: url(093.ico);
+}
